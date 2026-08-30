@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Revenue Cycle Report — Claims KPI Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <div>
+        <p class="report-kicker">Revenue Cycle Report</p>
+        <h1>Claims &amp; A/R Dashboard</h1>
+      </div>
+      <div class="masthead-meta">
+        <span id="report-range">Loading period…</span>
+      </div>
+    </div>
+    <p class="masthead-note">
+      Sample dataset styled after a real dental revenue-cycle workflow — claims intake, aging, and rejection tracking across five payers. Built by <a href="https://www.linkedin.com/in/suncerrae" target="_blank" rel="noreferrer">Sun Cerrae Quinones</a>.
+    </p>
+  </header>
+
+  <section class="kpi-strip" id="kpi-strip" aria-label="Key performance indicators">
+    <div class="kpi">
+      <span class="kpi-value" id="kpi-total-ar">—</span>
+      <span class="kpi-label">Outstanding A/R</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-value" id="kpi-rejection-rate">—</span>
+      <span class="kpi-label">Rejection rate</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-value" id="kpi-avg-days">—</span>
+      <span class="kpi-label">Avg. days outstanding</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-value" id="kpi-open-cases">—</span>
+      <span class="kpi-label">Open cases</span>
+    </div>
+  </section>
+
+  <section class="charts-row">
+    <div class="chart-panel">
+      <h2>A/R aging</h2>
+      <p class="chart-sub">Outstanding balance by days since submission</p>
+      <canvas id="agingChart" role="img" aria-label="Bar chart of accounts receivable aging by bucket"></canvas>
+    </div>
+    <div class="chart-panel">
+      <h2>Rejection rate trend</h2>
+      <p class="chart-sub">Share of claims rejected, by month submitted</p>
+      <canvas id="rejectionChart" role="img" aria-label="Line chart of monthly claim rejection rate"></canvas>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <div class="table-header">
+      <h2>Claims detail</h2>
+      <div class="table-controls">
+        <label for="statusFilter">Status</label>
+        <select id="statusFilter">
+          <option value="all">All</option>
+          <option value="Paid">Paid</option>
+          <option value="Pending">Pending</option>
+          <option value="Rejected">Rejected</option>
+          <option value="Appealed">Appealed</option>
+        </select>
+        <label for="payerFilter">Payer</label>
+        <select id="payerFilter">
+          <option value="all">All</option>
+        </select>
+      </div>
+    </div>
+    <table id="claimsTable">
+      <thead>
+        <tr>
+          <th>Claim</th>
+          <th>Payer</th>
+          <th>Submitted</th>
+          <th>Amount</th>
+          <th>Days out</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="claimsBody"></tbody>
+    </table>
+  </section>
+
+  <footer class="report-footer">
+    <p>Synthetic data, generated for demonstration. No real patient or payer information is included.</p>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

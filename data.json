@@ -1,0 +1,704 @@
+[
+  {
+    "id": "CLM-1001",
+    "payer": "Cigna",
+    "submitted": "2026-03-19",
+    "amount": 1801.69,
+    "status": "Paid",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1002",
+    "payer": "Guardian",
+    "submitted": "2026-07-25",
+    "amount": 1651.56,
+    "status": "Pending",
+    "days_outstanding": 36
+  },
+  {
+    "id": "CLM-1003",
+    "payer": "Delta Dental",
+    "submitted": "2026-08-07",
+    "amount": 158.58,
+    "status": "Paid",
+    "days_outstanding": 8
+  },
+  {
+    "id": "CLM-1004",
+    "payer": "Cigna",
+    "submitted": "2026-07-01",
+    "amount": 146.43,
+    "status": "Paid",
+    "days_outstanding": 24
+  },
+  {
+    "id": "CLM-1005",
+    "payer": "Aetna",
+    "submitted": "2026-03-16",
+    "amount": 1056.19,
+    "status": "Pending",
+    "days_outstanding": 167
+  },
+  {
+    "id": "CLM-1006",
+    "payer": "Cigna",
+    "submitted": "2026-04-01",
+    "amount": 2097.43,
+    "status": "Paid",
+    "days_outstanding": 24
+  },
+  {
+    "id": "CLM-1007",
+    "payer": "MetLife",
+    "submitted": "2026-05-13",
+    "amount": 444.94,
+    "status": "Paid",
+    "days_outstanding": 5
+  },
+  {
+    "id": "CLM-1008",
+    "payer": "MetLife",
+    "submitted": "2026-08-06",
+    "amount": 916.04,
+    "status": "Paid",
+    "days_outstanding": 21
+  },
+  {
+    "id": "CLM-1009",
+    "payer": "Guardian",
+    "submitted": "2026-06-23",
+    "amount": 1774.33,
+    "status": "Pending",
+    "days_outstanding": 68
+  },
+  {
+    "id": "CLM-1010",
+    "payer": "Guardian",
+    "submitted": "2026-07-29",
+    "amount": 961.31,
+    "status": "Appealed",
+    "days_outstanding": 32
+  },
+  {
+    "id": "CLM-1011",
+    "payer": "MetLife",
+    "submitted": "2026-06-15",
+    "amount": 1516.87,
+    "status": "Pending",
+    "days_outstanding": 76
+  },
+  {
+    "id": "CLM-1012",
+    "payer": "Cigna",
+    "submitted": "2026-04-04",
+    "amount": 246.02,
+    "status": "Paid",
+    "days_outstanding": 26
+  },
+  {
+    "id": "CLM-1013",
+    "payer": "Delta Dental",
+    "submitted": "2026-06-16",
+    "amount": 2065.06,
+    "status": "Appealed",
+    "days_outstanding": 75
+  },
+  {
+    "id": "CLM-1014",
+    "payer": "MetLife",
+    "submitted": "2026-05-24",
+    "amount": 1556.61,
+    "status": "Paid",
+    "days_outstanding": 7
+  },
+  {
+    "id": "CLM-1015",
+    "payer": "Delta Dental",
+    "submitted": "2026-05-27",
+    "amount": 1636.46,
+    "status": "Paid",
+    "days_outstanding": 21
+  },
+  {
+    "id": "CLM-1016",
+    "payer": "Cigna",
+    "submitted": "2026-03-20",
+    "amount": 1772.93,
+    "status": "Paid",
+    "days_outstanding": 16
+  },
+  {
+    "id": "CLM-1017",
+    "payer": "Guardian",
+    "submitted": "2026-05-24",
+    "amount": 2227.28,
+    "status": "Paid",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1018",
+    "payer": "Delta Dental",
+    "submitted": "2026-03-07",
+    "amount": 1863.65,
+    "status": "Paid",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1019",
+    "payer": "Delta Dental",
+    "submitted": "2026-08-21",
+    "amount": 1013.7,
+    "status": "Pending",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1020",
+    "payer": "MetLife",
+    "submitted": "2026-07-06",
+    "amount": 1398.02,
+    "status": "Rejected",
+    "days_outstanding": 8,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1021",
+    "payer": "Cigna",
+    "submitted": "2026-05-20",
+    "amount": 1573.2,
+    "status": "Rejected",
+    "days_outstanding": 10,
+    "reason": "Coding error"
+  },
+  {
+    "id": "CLM-1022",
+    "payer": "Guardian",
+    "submitted": "2026-06-27",
+    "amount": 1332.73,
+    "status": "Pending",
+    "days_outstanding": 64
+  },
+  {
+    "id": "CLM-1023",
+    "payer": "Cigna",
+    "submitted": "2026-05-12",
+    "amount": 1009.61,
+    "status": "Rejected",
+    "days_outstanding": 6,
+    "reason": "Missing documentation"
+  },
+  {
+    "id": "CLM-1024",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-25",
+    "amount": 194.07,
+    "status": "Paid",
+    "days_outstanding": 6
+  },
+  {
+    "id": "CLM-1025",
+    "payer": "Guardian",
+    "submitted": "2026-03-22",
+    "amount": 1660.31,
+    "status": "Paid",
+    "days_outstanding": 4
+  },
+  {
+    "id": "CLM-1026",
+    "payer": "Guardian",
+    "submitted": "2026-05-23",
+    "amount": 2391.02,
+    "status": "Paid",
+    "days_outstanding": 10
+  },
+  {
+    "id": "CLM-1027",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-10",
+    "amount": 111.58,
+    "status": "Rejected",
+    "days_outstanding": 23,
+    "reason": "Missing documentation"
+  },
+  {
+    "id": "CLM-1028",
+    "payer": "MetLife",
+    "submitted": "2026-06-22",
+    "amount": 872.51,
+    "status": "Pending",
+    "days_outstanding": 69
+  },
+  {
+    "id": "CLM-1029",
+    "payer": "MetLife",
+    "submitted": "2026-05-10",
+    "amount": 92.51,
+    "status": "Paid",
+    "days_outstanding": 18
+  },
+  {
+    "id": "CLM-1030",
+    "payer": "MetLife",
+    "submitted": "2026-07-15",
+    "amount": 331.34,
+    "status": "Paid",
+    "days_outstanding": 28
+  },
+  {
+    "id": "CLM-1031",
+    "payer": "MetLife",
+    "submitted": "2026-03-19",
+    "amount": 545.48,
+    "status": "Paid",
+    "days_outstanding": 26
+  },
+  {
+    "id": "CLM-1032",
+    "payer": "Guardian",
+    "submitted": "2026-07-19",
+    "amount": 1887.52,
+    "status": "Paid",
+    "days_outstanding": 2
+  },
+  {
+    "id": "CLM-1033",
+    "payer": "MetLife",
+    "submitted": "2026-03-29",
+    "amount": 130.09,
+    "status": "Paid",
+    "days_outstanding": 30
+  },
+  {
+    "id": "CLM-1034",
+    "payer": "Guardian",
+    "submitted": "2026-06-12",
+    "amount": 642.62,
+    "status": "Paid",
+    "days_outstanding": 4
+  },
+  {
+    "id": "CLM-1035",
+    "payer": "Guardian",
+    "submitted": "2026-08-08",
+    "amount": 1974.09,
+    "status": "Pending",
+    "days_outstanding": 22
+  },
+  {
+    "id": "CLM-1036",
+    "payer": "Guardian",
+    "submitted": "2026-07-28",
+    "amount": 1185.28,
+    "status": "Paid",
+    "days_outstanding": 7
+  },
+  {
+    "id": "CLM-1037",
+    "payer": "Cigna",
+    "submitted": "2026-06-23",
+    "amount": 1489.26,
+    "status": "Paid",
+    "days_outstanding": 19
+  },
+  {
+    "id": "CLM-1038",
+    "payer": "MetLife",
+    "submitted": "2026-03-06",
+    "amount": 806.62,
+    "status": "Paid",
+    "days_outstanding": 16
+  },
+  {
+    "id": "CLM-1039",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-19",
+    "amount": 658.9,
+    "status": "Paid",
+    "days_outstanding": 12
+  },
+  {
+    "id": "CLM-1040",
+    "payer": "Cigna",
+    "submitted": "2026-08-24",
+    "amount": 617.72,
+    "status": "Paid",
+    "days_outstanding": 2
+  },
+  {
+    "id": "CLM-1041",
+    "payer": "Delta Dental",
+    "submitted": "2026-08-11",
+    "amount": 221.29,
+    "status": "Pending",
+    "days_outstanding": 19
+  },
+  {
+    "id": "CLM-1042",
+    "payer": "Cigna",
+    "submitted": "2026-08-21",
+    "amount": 249.03,
+    "status": "Rejected",
+    "days_outstanding": 10,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1043",
+    "payer": "Guardian",
+    "submitted": "2026-07-06",
+    "amount": 1759.56,
+    "status": "Paid",
+    "days_outstanding": 20
+  },
+  {
+    "id": "CLM-1044",
+    "payer": "Aetna",
+    "submitted": "2026-04-30",
+    "amount": 1179.93,
+    "status": "Paid",
+    "days_outstanding": 8
+  },
+  {
+    "id": "CLM-1045",
+    "payer": "Aetna",
+    "submitted": "2026-08-05",
+    "amount": 1082.88,
+    "status": "Paid",
+    "days_outstanding": 15
+  },
+  {
+    "id": "CLM-1046",
+    "payer": "Delta Dental",
+    "submitted": "2026-05-02",
+    "amount": 210.41,
+    "status": "Rejected",
+    "days_outstanding": 3,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1047",
+    "payer": "Cigna",
+    "submitted": "2026-06-04",
+    "amount": 337.96,
+    "status": "Pending",
+    "days_outstanding": 87
+  },
+  {
+    "id": "CLM-1048",
+    "payer": "Cigna",
+    "submitted": "2026-07-12",
+    "amount": 409.52,
+    "status": "Paid",
+    "days_outstanding": 10
+  },
+  {
+    "id": "CLM-1049",
+    "payer": "Aetna",
+    "submitted": "2026-05-03",
+    "amount": 2222.36,
+    "status": "Paid",
+    "days_outstanding": 27
+  },
+  {
+    "id": "CLM-1050",
+    "payer": "Guardian",
+    "submitted": "2026-04-11",
+    "amount": 1594.72,
+    "status": "Paid",
+    "days_outstanding": 28
+  },
+  {
+    "id": "CLM-1051",
+    "payer": "Cigna",
+    "submitted": "2026-08-26",
+    "amount": 2229.54,
+    "status": "Appealed",
+    "days_outstanding": 4
+  },
+  {
+    "id": "CLM-1052",
+    "payer": "Aetna",
+    "submitted": "2026-07-18",
+    "amount": 1199.34,
+    "status": "Paid",
+    "days_outstanding": 30
+  },
+  {
+    "id": "CLM-1053",
+    "payer": "Aetna",
+    "submitted": "2026-08-14",
+    "amount": 89.99,
+    "status": "Paid",
+    "days_outstanding": 10
+  },
+  {
+    "id": "CLM-1054",
+    "payer": "Guardian",
+    "submitted": "2026-05-05",
+    "amount": 1697.61,
+    "status": "Paid",
+    "days_outstanding": 23
+  },
+  {
+    "id": "CLM-1055",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-27",
+    "amount": 771.88,
+    "status": "Paid",
+    "days_outstanding": 20
+  },
+  {
+    "id": "CLM-1056",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-13",
+    "amount": 811.0,
+    "status": "Paid",
+    "days_outstanding": 20
+  },
+  {
+    "id": "CLM-1057",
+    "payer": "Cigna",
+    "submitted": "2026-04-29",
+    "amount": 2059.05,
+    "status": "Paid",
+    "days_outstanding": 3
+  },
+  {
+    "id": "CLM-1058",
+    "payer": "Guardian",
+    "submitted": "2026-04-21",
+    "amount": 515.18,
+    "status": "Paid",
+    "days_outstanding": 4
+  },
+  {
+    "id": "CLM-1059",
+    "payer": "Guardian",
+    "submitted": "2026-03-10",
+    "amount": 1019.74,
+    "status": "Rejected",
+    "days_outstanding": 9,
+    "reason": "Missing documentation"
+  },
+  {
+    "id": "CLM-1060",
+    "payer": "Guardian",
+    "submitted": "2026-03-30",
+    "amount": 274.79,
+    "status": "Paid",
+    "days_outstanding": 20
+  },
+  {
+    "id": "CLM-1061",
+    "payer": "MetLife",
+    "submitted": "2026-04-18",
+    "amount": 688.67,
+    "status": "Paid",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1062",
+    "payer": "MetLife",
+    "submitted": "2026-06-23",
+    "amount": 1639.96,
+    "status": "Paid",
+    "days_outstanding": 16
+  },
+  {
+    "id": "CLM-1063",
+    "payer": "Delta Dental",
+    "submitted": "2026-06-10",
+    "amount": 2251.22,
+    "status": "Rejected",
+    "days_outstanding": 16,
+    "reason": "Missing documentation"
+  },
+  {
+    "id": "CLM-1064",
+    "payer": "Cigna",
+    "submitted": "2026-04-07",
+    "amount": 254.6,
+    "status": "Appealed",
+    "days_outstanding": 145
+  },
+  {
+    "id": "CLM-1065",
+    "payer": "Delta Dental",
+    "submitted": "2026-04-22",
+    "amount": 2245.5,
+    "status": "Paid",
+    "days_outstanding": 30
+  },
+  {
+    "id": "CLM-1066",
+    "payer": "Guardian",
+    "submitted": "2026-06-28",
+    "amount": 450.18,
+    "status": "Paid",
+    "days_outstanding": 24
+  },
+  {
+    "id": "CLM-1067",
+    "payer": "Guardian",
+    "submitted": "2026-06-13",
+    "amount": 2370.44,
+    "status": "Paid",
+    "days_outstanding": 2
+  },
+  {
+    "id": "CLM-1068",
+    "payer": "Delta Dental",
+    "submitted": "2026-03-12",
+    "amount": 778.06,
+    "status": "Pending",
+    "days_outstanding": 171
+  },
+  {
+    "id": "CLM-1069",
+    "payer": "Guardian",
+    "submitted": "2026-07-26",
+    "amount": 2144.68,
+    "status": "Paid",
+    "days_outstanding": 6
+  },
+  {
+    "id": "CLM-1070",
+    "payer": "MetLife",
+    "submitted": "2026-06-21",
+    "amount": 572.61,
+    "status": "Paid",
+    "days_outstanding": 8
+  },
+  {
+    "id": "CLM-1071",
+    "payer": "Aetna",
+    "submitted": "2026-03-07",
+    "amount": 696.12,
+    "status": "Pending",
+    "days_outstanding": 176
+  },
+  {
+    "id": "CLM-1072",
+    "payer": "Delta Dental",
+    "submitted": "2026-06-26",
+    "amount": 2043.73,
+    "status": "Rejected",
+    "days_outstanding": 22,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1073",
+    "payer": "Cigna",
+    "submitted": "2026-06-20",
+    "amount": 857.18,
+    "status": "Paid",
+    "days_outstanding": 22
+  },
+  {
+    "id": "CLM-1074",
+    "payer": "Aetna",
+    "submitted": "2026-06-23",
+    "amount": 1107.85,
+    "status": "Paid",
+    "days_outstanding": 19
+  },
+  {
+    "id": "CLM-1075",
+    "payer": "Cigna",
+    "submitted": "2026-08-27",
+    "amount": 2272.79,
+    "status": "Paid",
+    "days_outstanding": 19
+  },
+  {
+    "id": "CLM-1076",
+    "payer": "Cigna",
+    "submitted": "2026-08-20",
+    "amount": 1433.51,
+    "status": "Rejected",
+    "days_outstanding": 15,
+    "reason": "Coding error"
+  },
+  {
+    "id": "CLM-1077",
+    "payer": "Delta Dental",
+    "submitted": "2026-08-19",
+    "amount": 2166.14,
+    "status": "Paid",
+    "days_outstanding": 30
+  },
+  {
+    "id": "CLM-1078",
+    "payer": "Delta Dental",
+    "submitted": "2026-05-30",
+    "amount": 662.66,
+    "status": "Paid",
+    "days_outstanding": 13
+  },
+  {
+    "id": "CLM-1079",
+    "payer": "Guardian",
+    "submitted": "2026-04-08",
+    "amount": 1025.76,
+    "status": "Rejected",
+    "days_outstanding": 25,
+    "reason": "Coding error"
+  },
+  {
+    "id": "CLM-1080",
+    "payer": "Cigna",
+    "submitted": "2026-06-30",
+    "amount": 2344.92,
+    "status": "Rejected",
+    "days_outstanding": 30,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1081",
+    "payer": "Aetna",
+    "submitted": "2026-08-23",
+    "amount": 2225.19,
+    "status": "Paid",
+    "days_outstanding": 27
+  },
+  {
+    "id": "CLM-1082",
+    "payer": "MetLife",
+    "submitted": "2026-03-11",
+    "amount": 1961.88,
+    "status": "Rejected",
+    "days_outstanding": 7,
+    "reason": "Missing pre-auth"
+  },
+  {
+    "id": "CLM-1083",
+    "payer": "Cigna",
+    "submitted": "2026-05-24",
+    "amount": 2072.64,
+    "status": "Rejected",
+    "days_outstanding": 8,
+    "reason": "Duplicate claim"
+  },
+  {
+    "id": "CLM-1084",
+    "payer": "Cigna",
+    "submitted": "2026-06-01",
+    "amount": 1926.22,
+    "status": "Paid",
+    "days_outstanding": 9
+  },
+  {
+    "id": "CLM-1085",
+    "payer": "MetLife",
+    "submitted": "2026-08-23",
+    "amount": 1007.45,
+    "status": "Pending",
+    "days_outstanding": 7
+  },
+  {
+    "id": "CLM-1086",
+    "payer": "Guardian",
+    "submitted": "2026-08-12",
+    "amount": 731.17,
+    "status": "Appealed",
+    "days_outstanding": 18
+  }
+]
